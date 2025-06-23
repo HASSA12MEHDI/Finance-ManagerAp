@@ -24,13 +24,22 @@ namespace FINANCE_MANAGER_AP
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Label1 control.
+        /// lblMessage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Label lblMessage;
+
+        /// <summary>
+        /// ValidationSummary1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummary1;
 
         /// <summary>
         /// ddlTransactionType control.
@@ -42,13 +51,13 @@ namespace FINANCE_MANAGER_AP
         protected global::System.Web.UI.WebControls.DropDownList ddlTransactionType;
 
         /// <summary>
-        /// Label2 control.
+        /// rfvTransactionType control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvTransactionType;
 
         /// <summary>
         /// txtDate control.
@@ -60,13 +69,13 @@ namespace FINANCE_MANAGER_AP
         protected global::System.Web.UI.WebControls.TextBox txtDate;
 
         /// <summary>
-        /// Label3 control.
+        /// rfvDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label3;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvDate;
 
         /// <summary>
         /// txtAmount control.
@@ -78,13 +87,22 @@ namespace FINANCE_MANAGER_AP
         protected global::System.Web.UI.WebControls.TextBox txtAmount;
 
         /// <summary>
-        /// Label4 control.
+        /// rfvAmount control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label4;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvAmount;
+
+        /// <summary>
+        /// revAmount control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revAmount;
 
         /// <summary>
         /// txtCategory control.
@@ -96,13 +114,13 @@ namespace FINANCE_MANAGER_AP
         protected global::System.Web.UI.WebControls.TextBox txtCategory;
 
         /// <summary>
-        /// Label5 control.
+        /// rfvCategory control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label5;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvCategory;
 
         /// <summary>
         /// txtDescription control.
@@ -112,6 +130,15 @@ namespace FINANCE_MANAGER_AP
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtDescription;
+
+        /// <summary>
+        /// rfvDescription control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvDescription;
 
         /// <summary>
         /// btnAddTransaction control.
@@ -130,14 +157,5 @@ namespace FINANCE_MANAGER_AP
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnGoMainMenu;
-
-        /// <summary>
-        /// lblMessage control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMessage;
     }
 }
